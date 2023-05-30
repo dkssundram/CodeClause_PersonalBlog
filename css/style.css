@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
+
+:root{
+    --yellow:#f9ca24;
+}
+
+*{
+    font-family: 'Nunito', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none; border:none;
+    text-transform: none;
+    transition: all .2s linear;
+}
+
+/* *::selection{
+    background:var(--yellow);
+    color:#333;
+} */
+
+body{
+    background: #1f242d;
+    color: #fff;
+}
+/* 
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+} */
+
+html::-webkit-scrollbar{
+    width:1.4rem;
+}
+
+html::-webkit-scrollbar-track{
+    background:#222;
+}
+
+html::-webkit-scrollbar-thumb{
+    background:var(--yellow);
+}
+
+
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: default;
+    /* opacity: 0; */
+    /* animation: slideRight 1s ease forwards; */
+}
+
+.navbar a{
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+    /* opacity: 0; */
+    /* animation: slideTop .5s ease forwards; */
+    /* animation-delay: calc(.2s * var(--i)); */
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: rgb(255, 230, 0);
+}
+h2{
+    color: rgb(255, 230, 0);
+}
+
+a:hover,
+a.active {
+    color: rgb(255, 230, 0);
+}
+  
+  main {
+    margin: 80px;
+    padding: 20px 10%;
+  }
+  
+  .blog-post {
+    margin-bottom: 20px;
+  }
+  
+  .blog-post h2 {
+    font-size: 20px;
+  }
+  
+  .read-more {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+  }
+  
+  footer {
+    color: #222;
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+  }
+  
